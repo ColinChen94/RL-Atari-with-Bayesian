@@ -1,0 +1,20 @@
+trainingInput:
+  hyperparameters:
+    maxTrials: 20
+    maxParallelTrials: 5
+    enableTrialEarlyStopping: False
+    params:
+    - parameterName: discount_factor
+      minValue: 0.85
+      maxValue: 0.99
+      scaleType: uniform
+    - parameterName: learning_rate
+      minValue: 0.00001
+      maxValue: 0.0005
+      scaleType: loguniform
+    - parameterName: batch_size
+      scaleType: choice
+      discreteValues:
+      - 32
+      - 64
+      - 128
