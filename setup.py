@@ -2,7 +2,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-REQUIRED_PACKAGES = ['tensorflow>=2.2.0', 'gym==0.17.1', 'opencv-python==4.2.0.32', 'atari-py==0.2.6', 'pyyaml>=5.3.1', 'hyperopt>=0.2.4']
+REQUIRED_PACKAGES = ['tensorflow>=2.2.0', 'gym==0.17.1', 'opencv-python==4.8.1.78', 'atari-py==0.2.6', 'pyyaml>=5.3.1', 'hyperopt>=0.2.4']
 
 setup(
     name='pong_trainer',
